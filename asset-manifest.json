@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LenguajesIV_TP2/static/css/main.4c589d3d.css",
+    "main.js": "/LenguajesIV_TP2/static/js/main.1796ac0b.js",
+    "index.html": "/LenguajesIV_TP2/index.html",
+    "main.4c589d3d.css.map": "/LenguajesIV_TP2/static/css/main.4c589d3d.css.map",
+    "main.1796ac0b.js.map": "/LenguajesIV_TP2/static/js/main.1796ac0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c589d3d.css",
+    "static/js/main.1796ac0b.js"
+  ]
+}

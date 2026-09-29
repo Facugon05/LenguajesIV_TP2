@@ -4,7 +4,7 @@ import Inicio     from "../src/pages/Inicio";
 import Servicios  from "../src/pages/Servicios";
 import Contacto   from "../src/pages/Contacto";
 import NoExiste   from "../src/pages/NoExiste";
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import { NavLink } from "react-router";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <div className="App-header">
           <Encabezado/>
         </div>
-        <BrowserRouter>
+        <hashRouter>
               <nav className="App-navbar">
                 <NavLink to="/" style={({ isActive }) => ({
       color: isActive ? "blue" : "black",})}>
@@ -34,7 +34,7 @@ function App() {
             <Route path="/Contacto" element={<Contacto />} />
             <Route path="/*" element={<NoExiste />} />
           </Routes>
-        </BrowserRouter>
+        </hashRouter>
       </div>
   </>
   );

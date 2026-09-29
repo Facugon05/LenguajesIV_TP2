@@ -5,7 +5,7 @@ function Encabezado() {
 
     return(
         <>
-            <p>Encabezado</p>
+            <h3>Lenguajes IV</h3>
             
         </>
     );

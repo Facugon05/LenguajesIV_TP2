@@ -1,11 +1,12 @@
 import React from 'react'
 import PiePagina from "../components/PiePagina";
+import FormContacto from "../components/FormContacto";
 
 function Contacto() {
 
     return(
         <>
-            <h1>Contacto</h1>
+            <FormContacto/>
             <PiePagina/>
         </>
     );

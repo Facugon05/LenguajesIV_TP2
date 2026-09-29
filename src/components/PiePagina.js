@@ -4,7 +4,7 @@ function PiePagina() {
 
     return(
         <>
-            <p>Este es el pie de pagina</p>
+            <p>Lenguajes IV - 2026</p>
         </>
     );
 }

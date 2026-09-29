@@ -14,7 +14,7 @@ function App() {
         <div className="App-header">
           <Encabezado/>
         </div>
-        <hashRouter>
+        <HashRouter>
               <nav className="App-navbar">
                 <NavLink to="/" style={({ isActive }) => ({
       color: isActive ? "blue" : "black",})}>
@@ -34,7 +34,7 @@ function App() {
             <Route path="/Contacto" element={<Contacto />} />
             <Route path="/*" element={<NoExiste />} />
           </Routes>
-        </hashRouter>
+        </HashRouter>
       </div>
   </>
   );

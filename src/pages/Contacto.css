@@ -1,0 +1,41 @@
+.contact-page {
+  padding: 2.5rem 1rem;
+  background: #f5f2f2;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.contact-map {
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid #e1d8d8;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(49, 22, 22, 0.08);
+}
+
+.contact-map h2 {
+  margin-top: 0;
+  color: #3b1818;
+}
+
+.contact-map iframe {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 500px;
+  border: 0;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .contact-page {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-map iframe {
+    height: 400px;
+  }
+}
+

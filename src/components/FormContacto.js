@@ -48,7 +48,7 @@ function FormContacto() {
 
     return(
         <>
-            <main className="contact-page">
+            <main className="main-contact-form">
                 <section className="contact-panel">
                     <h1>Contacto</h1>
                     <p className="contact-intro">

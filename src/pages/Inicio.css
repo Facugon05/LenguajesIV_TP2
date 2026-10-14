@@ -1,0 +1,32 @@
+.page-inicio{
+  padding: 2rem 1rem;
+  background: #e6e6f3;
+}
+
+.page-inicio h1{
+    margin: 0 auto;
+    text-align: center;
+    color: #18183b;
+}
+
+.cards-personajes {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  width: min(100%, 1250px);
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+@media (max-width: 800px) {
+  .cards-personajes {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .cards-personajes {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+}

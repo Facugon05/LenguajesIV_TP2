@@ -1,0 +1,41 @@
+.card-personaje {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 1.5rem;
+  text-align: left;
+  background: #effafd;
+  border: 1px solid #c8d9df;
+  border-top: 4px solid #090080;
+  border-bottom: 4px solid #090080;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(20, 60, 30, 0.08);
+}
+
+.card-zona-img-personaje {
+  display: grid;
+  place-items: center;
+  height: 220px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.card-imagen-personaje {
+  max-width: 100%;
+  max-height: 210px;
+  object-fit: contain;
+}
+
+.card-personaje h4 {
+  margin: 0.5rem 0 1rem;
+  color: #000864;
+}
+
+.card-personaje p {
+  margin: 0.5rem 0;
+  color: black;
+}
+
+

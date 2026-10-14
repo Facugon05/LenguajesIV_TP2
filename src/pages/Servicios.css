@@ -1,0 +1,34 @@
+.page-servicios{
+  padding: 2rem 1rem;
+  background: #f3f5f2;
+}
+.cards-servicios{
+  width: min(100%, 1250px);
+  margin: 2rem auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  text-align: center;
+  background-color: #eaf5eb;
+  border: 1px solid #008000;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(49, 22, 22, 0.08);
+}
+.page-servicios h1{
+    margin: 0 auto;
+    text-align: center;
+    color: #1a3b18;
+}
+
+@media (max-width: 800px) {
+  .cards-servicios {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .cards-servicios {
+    grid-template-columns: 1fr;
+  }
+}
